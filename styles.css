@@ -8,11 +8,22 @@
     src: url(fonts/Vivaldi\ Italic.ttf) format('truetype');
 }
 
-body, h1, h2, h3, p, div {
+@font-face {
+    font-family: 'GaramondLI';
+    src: url(fonts/AppleGaramond-LightItalic.ttf) format('truetype');
+}
+
+div {
     font-family: 'Vivaldi', cursive !important;
     font-size: 30px;
     color: #FFD700
 }
+
+/* body, h1, h2, h3, p {
+    font-family: 'GaramondLI' !important;
+    font-size: 25;
+    color: white;
+} */
 
 [data-testid = "stMarkdownContainer"]{
     font-size: 30px;
@@ -28,5 +39,5 @@ body, h1, h2, h3, p, div {
 }
 
 .stMainBlockContainer{
-    padding: 0.3rem 1rem 3rem;
+    padding: 4rem 1rem 3rem;
 }
