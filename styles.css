@@ -1,0 +1,32 @@
+/* .body{
+    font-family: 'Vivaldi';
+    src: url(fonts/Vivaldi\ Italic.ttf);
+} */
+
+@font-face {
+    font-family: 'Vivaldi';
+    src: url(fonts/Vivaldi\ Italic.ttf) format('truetype');
+}
+
+body, h1, h2, h3, p, div {
+    font-family: 'Vivaldi', cursive !important;
+    font-size: 30px;
+    color: #FFD700
+}
+
+[data-testid = "stMarkdownContainer"]{
+    font-size: 30px;
+}
+
+.stAppHeader{
+    background-color: transparent;
+}
+
+.stVideo, stImage{
+    height: 90vh;
+    width: auto;
+}
+
+.stMainBlockContainer{
+    padding: 0.3rem 1rem 3rem;
+}
