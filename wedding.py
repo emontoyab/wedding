@@ -48,19 +48,19 @@ if image_path is not None:
             # st.divider()
             @st.dialog("Invitación")
             def padrino():
-                st.warning("Gallo, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestro padrino 🤵")
+                st.warning("Gallo, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestro padrino 🤵💓")
             # st.divider()
             padrino()
-            st.warning("Gallo, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestro padrino 🤵")
+            st.warning("Gallo, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestro padrino 🤵💓")
     elif image_path == "pics/DanielaCardona.jpg":
         with st.container(key="padrinos"):
             # st.divider()
             @st.dialog("Invitación")
             def madrina():
-                st.warning("Daniela, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestra madrina 👸")
+                st.warning("Daniela, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestra madrina 👸💓")
             # st.divider()
             madrina()
-            st.warning("Daniela, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestra madrina 👸")
+            st.warning("Daniela, por ocupar un lugar muy especial en nuestros corazones, queremos que seas nuestra madrina 👸💓")
 
     with st.expander("Ubicación"):
         # st.text("Ubicación")
