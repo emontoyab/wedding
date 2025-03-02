@@ -33,6 +33,7 @@ image_map = {
     "imagemt" : "pics/Martín.jpg",
     "imageyb" : "pics/Yessica.jpg",
     "imageyr" : "pics/yuliethrobin.jpg",
+    "imageyp" : "pics/Yulhi.png",
 }
 
 image_path = next((image_map.get(key) for key in query_params if key in image_map), None)
